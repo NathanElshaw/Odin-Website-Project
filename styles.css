@@ -1,0 +1,93 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #29571f;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerCta{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.hero{
+    padding-top: 50px;
+    width: 100%;
+    background-color: #29571f;
+}
+
+.contain {
+    flex: 1;
+    display: flex;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.cta{
+    margin: 10px;
+    padding: 10px;
+    max-width: 500px;
+}
+
+.image{
+    max-width: 500px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: calc(auto/9);
+}
+
+.showcase{
+
+    background-color: #13290e;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.birdpics{
+    max-width: 300px;
+    display: flex;
+
+}
+
+.showcasepics {
+    display: flex;
+    flex: 1;
+}
